@@ -2,6 +2,10 @@ package 'tree' do
 	action [ :install ]
 end
 
+package 'vim-enhanced' do
+	action [ :install ]
+end
+
 package 'git' do
 	action [ :install ]
 end
